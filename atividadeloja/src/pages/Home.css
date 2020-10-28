@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho{  
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 100px;
+    
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-cabecalho{
+    background-color: black;
+    background-blend-mode: multiply;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 100px;
+    z-index: -2;
+}
+
+.img-logo{
+    height: 50px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.campo-pesquisa{
+    background-color: white;
+    width: 180px;
+    height: 40px;
+
+    color: gray;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.btn-pesquisa{
+    background-color: #11b55d;
+    width: 60px;
+    height: 40px;
+
+    font-weight: 900;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.btn-pesquisa:hover{
+    background-color: #39c97c;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.opcao-menu{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.opcao-menu:hover{
+    color: #11b55d;
+}
+
+.sacola{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.img-sacola{
+    height: 30px;
+    padding: 10px;
+}
+
+.itens-sacola{
+    font-size: 16px;
+}
+
+.img-banner{
+    z-index: -1;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.controles-banner{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+
+    color: white;
+    opacity: 0.8;
+    font-size: 72px;
+    font-weight: 900px;
+    font-family: monospace;
+}
+
+.passadores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.controles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ctrl-passador{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.competencias{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-competencia{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-competencia{
+    width: 100px;
+}
+
+.txt-competencia{
+    color: black;
+    padding: 20px;
+}
+
+.departamentos,
+.novidades{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.titulo-secao{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.descricao-secao{
+    margin-bottom: 40px;
+}
+
+.produtos-novidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.produto{
+    font-weight: 400;
+    padding: 10px;
+}
+
+.img-produto{
+    border: 1px solid #000;
+    width: 300px;
+}
+
+.produto-botao,
+.produto-preco,
+.produto-descricao{
+    padding: 5px;
+}
+
+.produto-botao{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.departamentos{
+    background-color: white;
+}
+
+.quem-somos{
+    background-color: cyan;
+}
+
+.rodape{
+    background-color: gray;
+}
+
+.img-departamento{
+    padding: 10px;
+}
+
+.quem-somos{
+    background-color: #d4cece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contentor-logo-quem-somos{
+    width: 440px;
+}
+
+.botoes-quem-somos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.botao-whats,
+.botao-fale{
+    background-color: black;
+    color: white;
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-whats{
+    background-color: #11b55d;
+}
+
+.conteudo-quem-somos{
+    width: 700px;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.txt-rodape{
+    padding: 5px;
+}
